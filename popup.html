@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Jira prettifyer</title>
+        <link rel="stylesheet" type="text/css" href="popup.css"/>
+    </head>
+    <body>
+        <h3>Change hidden attr on right sidebar</h3>
+        <button id="changeBtn">Change</button>
+        <script src="popup.js"></script>
+        <script type="text/javascript">
+            document.addEventListener(
+                'click', function(e) {
+                    if(document.activeElement.toString() == '[object HTMLButtonElement]') {
+                        document.activeElement.blur();
+                    }
+                }
+            );
+        </script>
+    </body>
+</html>
