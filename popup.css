@@ -15,7 +15,7 @@ button {
     cursor: pointer;
 }
 
-button:focus {
+button:active {
   outline: none;
   background: #1d49aa;
   box-shadow: 0 0 0 2px #cbd6ee;

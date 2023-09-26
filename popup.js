@@ -12,7 +12,6 @@ btn.addEventListener("click",() => {
             )
         }
     })
-    btn.blur()
 })
 
 
