@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    width: 200px;
+    width: 150px;
     font-family: system-ui;
 }
 
@@ -15,11 +15,8 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background: #1d49aa;
-}
-
 button:focus {
   outline: none;
-  box-shadow: 0 0 0 4px #cbd6ee;
+  background: #1d49aa;
+  box-shadow: 0 0 0 2px #cbd6ee;
 }

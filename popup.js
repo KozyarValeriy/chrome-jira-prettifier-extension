@@ -1,6 +1,6 @@
-const changeBtn = document.getElementById("changeBtn")
+const btn = document.getElementById("hideBtn")
 
-changeBtn.addEventListener("click",() => {
+btn.addEventListener("click",() => {
     chrome.tabs.query({active: true}, (tabs) => {
         const tab = tabs[0];
         if (tab) {
@@ -12,6 +12,7 @@ changeBtn.addEventListener("click",() => {
             )
         }
     })
+    btn.blur()
 })
 
 

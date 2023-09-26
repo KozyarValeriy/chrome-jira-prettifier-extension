@@ -1,6 +1,6 @@
 {
-    "name": "Jira prettifyer",
-    "description": "Extension for hide right sidebar on jira",
+    "name": "Jira prettifier",
+    "description": "Расширение для сворачивания правой боковой панели в Jira",
     "version": "1.0",
     "manifest_version": 3,
     "icons": {
