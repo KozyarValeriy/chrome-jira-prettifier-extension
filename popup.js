@@ -19,7 +19,7 @@ btn.addEventListener("click",() => {
 function changeHiddenSidebar() {
     let sidebar = document.getElementById('viewissuesidebar')
     if (sidebar) {
-        sidebar.hidden = !sidebar.hidden
+        sidebar.style.display = (sidebar.style.display === 'none' ? '' : 'none')
     }
     else {
         console.log('Sidebar not found')
