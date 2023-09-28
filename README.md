@@ -1,7 +1,6 @@
 # Chrome Jira prettifier Extensions
 
-Extension for change `display` attribute on right issue sidebar
-(element with id='viewissuesidebar').
+Extension that adds toggle for right issue sidebar (element with id='viewissuesidebar').
 
 ## Installation
 
