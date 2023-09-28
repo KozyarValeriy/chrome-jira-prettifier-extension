@@ -3,7 +3,6 @@
 Extension for change `display` attribute on right issue sidebar
 (element with id='viewissuesidebar').
 
-
 ## Installation
 
 1. Clone repository
